@@ -69,6 +69,11 @@ p {
     border: 0px;
 }
 
+#button1:hover {
+    background-color: black;
+    color: white;
+}
+
 #YouVe {
     font-family: Fredoka;
     font-size: 27px;
@@ -120,6 +125,11 @@ p {
     height: 60px;
     width: 250px;
     border: 0px;
+}
+
+#button2:hover { 
+    background-color: black;
+    color: white;
 }
 
 #img2 {
@@ -222,4 +232,75 @@ p {
     padding-top: 3%;
     padding-bottom: 3%;
     text-align: center;
+}
+
+@media screen and (max-width: 348px) {
+    #OurEvent {
+        font-size: 30px;
+        top: 12%;
+    }
+
+    #YouVe {
+        font-size: 20px;
+    }
+
+    #Agenda {
+        font-size: 20px;
+    }
+
+    #Attending {
+        font-size: 20px;
+    }
+
+    #MadeBy {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    #P1 {
+        font-size: 15px;
+    }
+
+    #P2 {
+        font-size: 15px;
+    }
+
+    .DivButton1 {
+        top: 80%;
+    }
+
+    #button1 {
+        height: 30px;
+        width: 150px;
+    }
+
+    .DivButton2 {
+        top: 652%;
+    }
+
+    #button2 {
+        height: 30px;
+        width: 150px;
+    }
+
+    .container5 {
+        padding-bottom: 35%;
+    }
+}
+
+@media screen and (max-width: 640px) and (min-width: 348px) {
+    #OurEvent {
+        top: 19%;
+    }
+
+    .DivButton2 {
+        top: 522%;
+    }
+
+    .container5 {
+        padding-bottom: 35%;
+    }
 }
